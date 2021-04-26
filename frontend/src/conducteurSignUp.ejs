@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_m9fK_QiSL8MvY6Q0EMXfTlJDCSkqCKd9qDWQpj2ds9_8AplbAIorYZzatOOL6cz1Cg&usqp=CAU" id="icon" alt="User Icon" />
+      </div>
+
+      <!-- signup Form -->
+      <form>
+        <input type="text" id="matricule" class="fadeIn second" name="login" placeholder="matricule">
+        <input type="text" id="name" class="fadeIn third" name="login" placeholder="name">
+        <input type="text" id="last_name" class="fadeIn second" name="login" placeholder="last_name">
+        <input type="text" id="email" class="fadeIn third" name="login" placeholder="email">
+        <input type="text" id="telephone" class="fadeIn second" name="login" placeholder="telephone">
+        <input type="text" id="adress" class="fadeIn third" name="login" placeholder="adress">
+        <input type="text" id="numero_du_permis" class="fadeIn second" name="login" placeholder="numero_du_permis">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <input type="text" id="confirmPass" class="fadeIn second" name="login" placeholder="confirmPass">
+        <input type="button" class="fadeIn fourth" value="Sign Up" onclick="conducteurReg()">
+      </form>
+
+    </div>
+  </div>
+
+<%- include('footer'); -%>
